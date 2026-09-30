@@ -1,0 +1,53 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.product-item {
+    padding: 80px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.product-item img {
+    width: 120%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+#titulo{
+
+    color: rgb(245, 158, 11);
+    padding: 20px;
+}
+
+#produtos {
+    color: rgb(251, 191, 36);
+    padding: 20px;
+}
+
+
+
+/* Container que força o alinhamento lado a lado */
+.container-certificados {
+  display: flex;
+  gap: 20px; /* Espaço entre os dois certificados */
+  width: 100%;
+  align-items: flex-start; /* Alinha o topo dos dois certificados */
+}
+
+/* Faz cada card ocupar exatamente a metade do espaço */
+.card-certificado {
+  flex: 1;
+  text-align: center;
+}
+
+/* Garante que a imagem adapte a largura ao card sem estourar */
+.card-certificado img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

@@ -1,0 +1,86 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.product-item {
+    padding: 80px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.product-item img {
+    width: 120%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+#titulo{
+
+    color: rgb(245, 158, 11);
+    padding: 20px;
+}
+
+#produtos {
+    color: rgb(251, 191, 36);
+    padding: 20px;
+}
+
+.autobiografia {
+    max-width: 1450px;
+    text-align: justify;
+    line-height: 1.6;
+    color: rgb(251, 191, 36);
+}
+
+.titul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: rgb(251, 191, 36);
+}
+
+.coluna-direita {
+width: 40%; /* Reduzido de 55% para 40% para ter espaço de folga */
+  color: rgb(155, 144, 114);
+  float: right;
+  
+  margin-right: 30px; /* 1. DESGRUDA DA PAREDE (afasta da borda direita) */
+  margin-top: -700px; /* 2. PUXA PARA CIMA (ajuste esse valor se precisar subir mais ou menos) */
+}
+.objetivos {
+   color: rgb(155, 144, 114);
+  max-width: 1000px;
+}
+.lista-objetivos {
+  list-style: none; /* Remove as bolinhas padrão */
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.lista-objetivos li {
+  margin-bottom: 10px; /* Espaço entre cada tópico */
+  font-size: 15px;
+  line-height: 1.4;
+  color: #e0e0e0;
+}
+
+.lista-objetivos li strong {
+  color: rgb(212, 175, 55); /* Destaque no título do tópico */
+}
+.fotos-objetivos {
+  display: flex;
+  gap: 15px; /* Espaço entre as duas fotos */
+  margin-top: 15px;
+}
+
+/* Tamanho de cada foto */
+.foto-card {
+  width: 80%; /* Cada foto ocupa quase metade da coluna da direita */
+  height: 400px; /* Altura da foto */
+  object-fit: cover; /* Recorta a imagem sem achatar */
+  border-radius: 8px; /* Borda arredondada */
+}
